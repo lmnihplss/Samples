@@ -21,6 +21,7 @@
 		B02EFA281844F29D008570CE /* CollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B02EFA271844F29D008570CE /* CollectionItem.m */; };
 		B02EFA2B1844F337008570CE /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B02EFA2A1844F337008570CE /* CollectionViewCell.m */; };
 		B02EFA2D1844F409008570CE /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02EFA2C1844F409008570CE /* CollectionViewCell.xib */; };
+		B0FB0FD518463EF100BCC426 /* CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FB0FD418463EF100BCC426 /* CollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		B02EFA291844F337008570CE /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		B02EFA2A1844F337008570CE /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		B02EFA2C1844F409008570CE /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B0FB0FD318463EF100BCC426 /* CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewLayout.h; sourceTree = "<group>"; };
+		B0FB0FD418463EF100BCC426 /* CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				B02EFA291844F337008570CE /* CollectionViewCell.h */,
 				B02EFA2A1844F337008570CE /* CollectionViewCell.m */,
 				B02EFA2C1844F409008570CE /* CollectionViewCell.xib */,
+				B0FB0FD318463EF100BCC426 /* CollectionViewLayout.h */,
+				B0FB0FD418463EF100BCC426 /* CollectionViewLayout.m */,
 			);
 			path = UICollectionViewSample;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				B02EFA241844F148008570CE /* MainViewController.m in Sources */,
 				B02EFA281844F29D008570CE /* CollectionItem.m in Sources */,
 				B02EFA2B1844F337008570CE /* CollectionViewCell.m in Sources */,
+				B0FB0FD518463EF100BCC426 /* CollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				B02EFA1C1844F0EB008570CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
